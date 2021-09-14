@@ -37,6 +37,10 @@
   }
 }
 
+.box-container {
+  padding-bottom: 100px;
+}
+
 .box {
   width: 150px;
   height: 150px;
