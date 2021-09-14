@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -46,4 +49,34 @@
   height: 150px;
   background-color: blueviolet;
   margin: 50px;
+}
+
+body {
+  background: linear-gradient(250deg, #b598e2, #f3c5e4);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  width: 160px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}
+
+.handle {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 40px;
 }

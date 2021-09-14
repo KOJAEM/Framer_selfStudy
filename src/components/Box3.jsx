@@ -1,40 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useAnimation } from "framer-motion";
 
-export default function Box2() {
-    const list = {
-        visible: {
-            opacity: 1,
-            transition: {
-                when: "beforeChildren",
-                staggerChildren: 0.3,
-            },
-        },
+export default function Box3() {
+    const controls = useAnimation()
 
-        hidden: { 
-            opacity: 0,
-            transition: {
-                when:"afterParents",
-            }
-        },
-        
-      }
-      const item = {
-        visible: { opacity: 1, x: 0 },
-        hidden: { opacity: 0, x: -100 },
-      }
-    return (
-        <container className="box-container">
-            <motion.ul
-                initial="hidden"
-                animate="visible"
-                transition={{duration:10}}
-                variants={list}
-            >
-                <motion.li variants={item} />
-                <motion.li variants={item} />
-                <motion.li variants={item} />
-            </motion.ul>
-        </container>
-    );
+useEffect(() => {
+  controls.start(i => ({
+    opacity: 0,
+    x: 100,
+    transition: { delay: i * 0.3 },
+  }))
+}, [])
+
+return (
+    <div className="box-container">
+        <ul>
+            <motion.li custom={0} animate={controls} />
+            <motion.li custom={1} animate={controls} />
+            <motion.li custom={2} animate={controls} />
+        </ul>
+  </div>
+)
 }
