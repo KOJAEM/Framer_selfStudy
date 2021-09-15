@@ -47,5 +47,6 @@ const colors = ["#ff0055", "#0099ff", "#22cc88", "#ffaa00"];
 const spring = {
     type: "spring",
     stiffness: 500,
-    damping: 30
+    damping: 30,
+    mass: 3 // 무게 조절
   };
