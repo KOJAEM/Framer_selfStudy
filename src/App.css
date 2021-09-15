@@ -189,8 +189,14 @@ body {
   border-radius: 50%;
 }
 
+/* Box8 */
 .box8-button {
-  width: 120px;
-  height: 50px;
   background-color: aqua;
+}
+
+/* Box9 */
+.box9-div {
+  width: 150px;
+  height: 150px;
+  background-color: white;
 }

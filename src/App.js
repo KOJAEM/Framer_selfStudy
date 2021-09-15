@@ -10,6 +10,7 @@ import Box5 from "./components/Box5";
 import Box6 from "./components/Box6";
 import Box7 from './components/Box7';
 import Box8 from './components/Box8';
+import Box9 from './components/Box9';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
      <Box6 />
      <Box7 />
      <Box8 />
+     <Box9 />
     </>
   );
 }
