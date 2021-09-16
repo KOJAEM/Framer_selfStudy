@@ -16,6 +16,8 @@ export default function Box15() {
           
           transition={{
               duration: 2, // 지속시간 (각 애니메이션들이 총 몇초에 걸쳐 진행될건지)
+              repeat: Infinity,
+              repeatDelay: 1,   
           }}
           
           >
