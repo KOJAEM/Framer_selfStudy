@@ -226,3 +226,89 @@ body {
   text-align: center;
   line-height: 140px;
 }
+
+/* Box12 */
+.box12-div {
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Box13 */
+.box13-div {
+  width: 150px;
+  height: 150px;
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Box14 */
+.box14-div {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(204, 230, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box14-boxItem {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 10px;
+  list-style: none;
+  margin: 5px;
+}
+
+/* Box15 */
+.box15-div {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(26, 30, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Box16 */
+.box16-div {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(144, 40, 148);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box16-button {
+  width: 100px;
+  height: 35px;
+  color: white;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(13, 167, 228);
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.box16-button:hover {
+  opacity: 0.5;
+}
+.box16-button:active {
+  transform: scale(0.9);
+}

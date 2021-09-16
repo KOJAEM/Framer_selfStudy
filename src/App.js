@@ -11,6 +11,11 @@ import Box8 from './components/Box8';
 import Box9 from './components/Box9';
 import Box10 from './components/Box10';
 import Box11 from './components/Box11';
+import Box12 from './components/Box12';
+import Box13 from './components/Box13';
+import Box14 from './components/Box14';
+import Box15 from './components/Box15';
+import Box16 from './components/Box16';
 
 function App() {
   return (
@@ -26,6 +31,11 @@ function App() {
      <Box9 />
      <Box10 />
      <Box11 />
+     <Box12 />
+     <Box13 />
+     <Box14 />
+     <Box15 />
+     <Box16 />
     </>
   );
 }
