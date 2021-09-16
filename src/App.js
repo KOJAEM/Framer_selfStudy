@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { motion } from 'framer-motion';
 import Box1 from "./components/Box1";
 import Box2 from "./components/Box2";
 import Box3 from "./components/Box3";
@@ -11,6 +9,7 @@ import Box6 from "./components/Box6";
 import Box7 from './components/Box7';
 import Box8 from './components/Box8';
 import Box9 from './components/Box9';
+import Box10 from './components/Box10';
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
      <Box7 />
      <Box8 />
      <Box9 />
+     <Box10 />
     </>
   );
 }

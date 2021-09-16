@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion";
-import { useAnimation } from "framer-motion";
+import React, { useState } from "react";
+import { AnimateSharedLayout, motion } from "framer-motion";
 
 export default function Box7() {
     const[selected, setSelected] = useState(colors[0]);

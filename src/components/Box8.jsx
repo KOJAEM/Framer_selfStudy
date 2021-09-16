@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion";
-import { useAnimation } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 
 export default function Box8() {
   return (

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { useAnimation } from "framer-motion";
 
 export default function Box4() {
     const [isOn, setIsOn] = useState(false);

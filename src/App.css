@@ -203,3 +203,14 @@ body {
   line-height: 200px;
   user-select: none; /* 드래그 효과 없앰 */
 }
+
+.box10-div {
+  margin-left: 100px;
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
