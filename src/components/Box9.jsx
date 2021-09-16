@@ -12,7 +12,7 @@ export default function Box9() {
      onPan={onPan}
      onPanStart={onPanStart}
      onPanEnd={onPanEnd}
-     />
+     >누르면서 콘솔창 확인</motion.div>
     </div>
   );
 }
