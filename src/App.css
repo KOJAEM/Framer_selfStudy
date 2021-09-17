@@ -42,6 +42,11 @@
 
 /* Box 마다 위아래 간격을 만들기 위해 */
 .box-container {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.box17-container {
   padding-bottom: 100px;
 }
 
@@ -240,13 +245,22 @@ body {
 
 /* Box13 */
 .box13-div {
+  background: white;
+  border-radius: 30px;
   width: 150px;
   height: 150px;
-  background-color: goldenrod;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+}
+
+.box13-drag-area {
+  opacity: 0.2;
+  background: white;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
 }
 
 /* Box14 */

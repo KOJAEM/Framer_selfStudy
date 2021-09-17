@@ -9,7 +9,7 @@ export default function Box5() {
       <div className="box-container">
         <button className="box16-button" onClick={() => {
             control.start({
-                x: 1500,
+                x: 1000,
                 transition: { duration: 2 }
             })
         }}

@@ -6,8 +6,8 @@ import { Example } from "./Example";
 export default function Box17() {
 
     return (
-      <div className="box-container">
-        <Example />;
+      <div className="box17-container">
+        <Example />
       </div>
     );
 }
